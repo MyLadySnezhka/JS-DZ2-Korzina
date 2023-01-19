@@ -1,5 +1,12 @@
 const nameCart = document.querySelector('h1');
 const selectCurrency = document.querySelector('.currency_select');
+
+// const btnInc = document.querySelectorAll('.butinc');
+// const btnDec = document.querySelectorAll('.butdec');
+// const itemNum = document.querySelectorAll('.item_num');
+// const itemPrice = document.querySelectorAll('.item_pr');
+// const itemSum = document.querySelectorAll('.item_sum');
+
 const btnInc = document.querySelector('.butinc');
 const btnDec = document.querySelector('.butdec');
 const itemNum = document.querySelector('.item_num');
