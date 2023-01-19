@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина JS</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <div class="wrap">
+        <h1>Корзина</h1>
+        <div class="header">
+            Оберіть валюту:
+            <select class="currency_select">
+                
+                <option value="grn">ГРН</option>
+                <option value="usd">USD</option>
+                <option value="eur">EUR</option>
+            </select>
+        </div>
+        <div class="cart">
+            <!--
+            <div class="item_header">
+                <div class="item_name">Назва товару</div>
+                <div class="item_price">Вартість</div>
+                <div class="item_number">Кількість</div>
+                <div class="item_sum">Сума</div>
+            </div>
+            -->
+            <div class="item">
+                <div class="item_name">Ліхтарик</div>
+                <div class="item_price">
+                    <input id="item_pr" class="item_pr" name="item_pr" type="number" placeholder="вартість" maxlength="245">
+                </div>
+                <div class="item_number">
+                    <input type="button" value="-" class="butdec">
+                    <input id="item_num" class="item_num" name="item_num" type="number" placeholder="1" maxlength="10">
+                    <input type="button" value="+" class="butinc">
+                </div>
+                <div class="item_sum">0</div>
+            </div>
+            <div class="item">
+                <div class="item_name">Серветки</div>
+                <div class="item_price">20</div>
+                <div class="item_number">
+                    <input type="button" value="-" class="butdec">
+                    <input id="item_num" class="item_num" name="item_num" type="number" placeholder="1" maxlength="10">
+                    <input type="button" value="+" class="butinc">
+                </div>
+                <div class="item_sum"></div>
+            </div>
+            <div class="item">
+                <div class="item_name">Кава</div>
+                <div class="item_price">130</div>
+                <div class="item_number">
+                    <input type="button" value="-" class="butdec">
+                    <input id="item_num" class="item_num" name="item_num" type="number" placeholder="1" maxlength="10">
+                    <input type="button" value="+" class="butinc">
+                </div>
+                <div class="item_sum"></div>
+            </div>    
+        </div>
+        <div class="sum">
+            До сплати:
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
